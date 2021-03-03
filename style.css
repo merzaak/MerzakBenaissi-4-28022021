@@ -677,7 +677,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 16px;
 }
 
 .tight-width-whitespace {
@@ -710,7 +710,7 @@ h2 {
 }
 
 h3 {
-    font-size: 15px;
+    font-size: 18px;
     text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
@@ -1039,4 +1039,21 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+}
+/* corrections après audit   SEO*/
+#bloc-2-services .title,
+#bloc-4-portfolio .title{
+    font-size: 24px;
+    color: #575757;
+}
+.text-center blockquote p{
+    font-size: 22px;
+    color: #575757;
+}
+blockquote p::before {
+    content: '\201C ';
+}
+
+blockquote p::after {
+    content: '\201D';
 }
