@@ -686,7 +686,7 @@ p {
 }
 
 .h1 {
-    font-size: 20px;
+    font-size: 22px;
     font-family: "Open Sans";
 }
 
@@ -705,7 +705,7 @@ p {
 }
 
 h2 {
-    font-size: 22px;
+    font-size: 18px;
     line-height: 1.4em;
 }
 
@@ -775,17 +775,17 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #fff!important;
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #000!important;
 }
 
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
-    color: #FFFFFF!important;
+    color: #000!important;
 }
 
 .ltc-white {
@@ -1056,4 +1056,10 @@ blockquote p::before {
 
 blockquote p::after {
     content: '\201D';
+}
+figcaption, cite{
+    color: rgba(0, 0, 0, 0.6);
+}
+#bloc-8, #bloc-8 .white, #bloc-8 a{
+    color: #000 !important;
 }
