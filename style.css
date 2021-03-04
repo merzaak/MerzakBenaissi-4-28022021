@@ -707,11 +707,13 @@ p {
 h2 {
     font-size: 18px;
     line-height: 1.4em;
+    font-weight: 700 ;
+    text-transform: uppercase;
+    color: #333333!important;
 }
 
 h3 {
     font-size: 18px;
-    text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
 }
@@ -1060,6 +1062,18 @@ blockquote p::after {
 figcaption, cite{
     color: rgba(0, 0, 0, 0.6);
 }
+
+#bloc-3-what-i-do h2{
+    text-transform:initial;
+    color: #000 !important;
+    font-size: 24px;
+}
+#bloc-5-cta h2{
+    text-transform:initial;
+    color: #fff !important;
+    font-size: 24px;
+}
+
 #bloc-8, #bloc-8 .white, #bloc-8 a{
     color: #000 !important;
 }
