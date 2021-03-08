@@ -1,2 +1,2 @@
-User-Agent: * (autorise l’accès à tous les robots )
-Allow: /*.css?* (autorise l’accès à toutes les ressources css)
+User-Agent: * 
+Disallow: 
